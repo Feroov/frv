@@ -1,0 +1,493 @@
+@font-face 
+{
+    font-family: 'redwing';
+    src: url('../font/Redwing-Medium.otf');
+}
+
+/* Headers pretty self explanatory */
+.h1-left
+{
+    font-family: redwing;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.h1-name
+{
+    font-family: redwing;
+    text-align: center;
+    color: white;
+}
+
+/* The main text etc pretty self explanatory */
+.paragraph
+{
+    font-family: redwing;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 30px;
+}
+
+/* Unordered list texts */
+.list
+{
+    font-family: redwing;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/* The main body with background color, pretty self explanatory */
+body
+{
+    background-color: #3F4045;
+    background-image: url('../images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* "me" class is related to the selfie */
+.me
+{
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 6px solid #111010;
+    box-shadow: 0px 0px 20px;
+}
+
+/* "welcome" class is related to the welcome image */
+.welcome
+{
+    display: block;
+    width: 100%;
+    max-width: 330px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+/* Main container div for the boxes */
+.frv-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 130px;
+}
+
+/* The white boxes */
+.frv-box
+{
+    width: 200px;
+    margin: 10px;
+    border: 4px solid rgb(37, 37, 37);
+    background-color: white;
+    text-align: left;
+}
+
+/* The image box */
+.frv-box-2
+{
+    width: 200px;
+    margin: 10px;
+}
+
+/* Box content related stuff */
+.frv-item-1
+{
+    min-height: 460px;
+    min-width: 400px;
+    margin-right: 340px;
+    border-radius: 2%;
+    box-shadow: 0px 0px 20px;
+}
+
+/* Box content related stuff */
+.frv-item-2
+{
+    min-height: 460px;
+    min-width: 400px;
+    margin-left: 15rem;
+}
+
+/* Box content related stuff */
+.frv-item-3
+{
+    min-height: 460px;
+    min-width: 400px;
+    margin-right: 20px;
+    border-radius: 2%;
+    box-shadow: 0px 0px 20px;
+}
+
+/* Playing around with a tags hovering and color basically */
+a
+{
+    color: black;
+}
+
+a:hover 
+{
+    color: red;
+}
+
+/* Media Queries for responsiveness etc */
+@media screen and (min-width: 1366px)
+{
+    .frv-container
+    {
+         display: flex;
+         padding-top: 130px;
+    }
+
+    .paragraph
+    {
+        font-family: redwing;
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 1024px)
+{
+    .frv-container
+    {
+         display: flex;
+         padding-top: 90px;
+    }
+
+    /* Box content related stuff */
+    .frv-item-1
+    {
+        min-height: 460px;
+        min-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2%;
+        box-shadow: 0px 0px 20px;
+    }
+
+    /* Box content related stuff */
+    .frv-item-2
+    {
+        min-height: 460px;
+        min-width: 200px;
+        padding-top: 80px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Box content related stuff */
+    .frv-item-3
+    {
+        min-height: 460px;
+        min-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2%;
+        box-shadow: 0px 0px 20px;
+    }
+    
+    .h1-left
+    {
+        font-family: redwing;
+        padding-left: 0px;
+        font-size: 40px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .paragraph
+    {
+        font-family: redwing;
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .frv-container
+    {
+         display: block;
+         padding-top: 20px;
+    }
+
+    /* Box content related stuff */
+    .frv-item-1
+    {
+        min-height: 460px;
+        min-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 2%;
+        box-shadow: 0px 0px 20px;
+    }
+
+    /* Box content related stuff */
+    .frv-item-2
+    {
+        min-height: 460px;
+        min-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Box content related stuff */
+    .frv-item-3
+    {
+        min-height: 460px;
+        min-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2%;
+        box-shadow: 0px 0px 20px;
+    }
+
+    .h1-left
+    {
+        font-family: redwing;
+        padding-left: 0px;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .paragraph
+    {
+        font-family: redwing;
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 425px)
+{
+    .frv-container
+    {
+         display: block;
+         padding-top: 20px;
+    }
+
+    /* Box content related stuff */
+    .frv-item-1
+    {
+        min-height: 460px;
+        min-width: 370px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 2%;
+        box-shadow: 0px 0px 20px;
+    }
+
+    /* Box content related stuff */
+    .frv-item-2
+    {
+        min-height: 460px;
+        min-width: 370px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Box content related stuff */
+    .frv-item-3
+    {
+        min-height: 460px;
+        min-width: 370px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2%;
+        box-shadow: 0px 0px 20px;
+    }
+    
+    .h1-left
+    {
+        font-family: redwing;
+        padding-left: 0px;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .paragraph
+    {
+        font-family: redwing;
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 390px)
+{
+    .frv-container
+    {
+         display: block;
+         padding-top: 20px;
+    }
+
+    .paragraph
+    {
+        font-family: redwing;
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 375px)
+{
+    .frv-container
+    {
+         display: block;
+         padding-top: 20px;
+    }
+
+    /* Box content related stuff */
+    .frv-item-1
+    {
+        min-height: 460px;
+        min-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 2%;
+        box-shadow: 0px 0px 20px;
+    }
+
+    /* Box content related stuff */
+    .frv-item-2
+    {
+        min-height: 460px;
+        min-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Box content related stuff */
+    .frv-item-3
+    {
+        min-height: 460px;
+        min-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2%;
+        box-shadow: 0px 0px 20px;
+    }
+
+    .paragraph
+    {
+        font-family: redwing;
+        padding-left: 12px;
+        line-height: 25px;
+    }
+
+    .h1-left
+    {
+        font-family: redwing;
+        padding-left: 0px;
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .paragraph
+    {
+        font-family: redwing;
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+    .frv-container
+    {
+         display: block;
+         padding-top: 20px;
+    }
+
+    /* Box content related stuff */
+    .frv-item-1
+    {
+        min-height: 460px;
+        min-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 2%;
+        box-shadow: 0px 0px 20px;
+    }
+
+    /* Box content related stuff */
+    .frv-item-2
+    {
+        min-height: 460px;
+        min-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Box content related stuff */
+    .frv-item-3
+    {
+        min-height: 460px;
+        min-width: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2%;
+        box-shadow: 0px 0px 20px;
+    }
+
+    .paragraph
+    {
+        font-family: redwing;
+        padding-left: 9px;
+        line-height: 22px;
+    }
+
+    /* Headers pretty self explanatory */
+    .h1-left
+    {
+        font-family: redwing;
+        padding-left: 0px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .paragraph
+    {
+        font-family: redwing;
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 1920px)
+{
+    .frv-container
+    {
+         display: flex;
+         padding-top: 220px;
+    }
+}
