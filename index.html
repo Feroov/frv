@@ -1,49 +1,178 @@
 <!doctype html>
 <html lang="en">
 
-
 <head>
 
-  <title>Feridun Emre Tuncer</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Individual 1 - Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Link tags for css, and a favicon as a little touch! -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" type="image/png" href="assets/images/frvlogo.png" sizes="96x96">
+    <!-- Linking css and adding favicon -->
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="icon" type="image/png" href="./assets/images/frvlogo.png" sizes="96x96">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
 
 </head>
 
 <body>
 
-  
-  <!-- Main div container -->
-  <div class="frv-container">
+    <!-- A Check box to toggle on or off the nav -->
+    <input type="checkbox" name="" id="nav-box">
+    <!-- Nav container -->
+    <nav class="nav-container">
+        <!-- The nav toggle box -->
+        <label for="nav-box">
+            <span style="color: white;" id="close">X</span>
+            <span style="color: white;" id="openMenu">&#9776;</span>
+        </label>
+        <!-- Header of the menu -->
+        <div class="nav-head">Menu</div>
+        <!-- The navigation -->
+        <ol>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">Cuisine</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Things todo</a></li>
+            <li><a href="#">Nature</a></li>
+            <li><a href="#">Places</a></li>
+            <li><a href="#">Tips</a></li>
+            <li><a href="#">Economy</a></li>
+            <li><a href="#">People</a></li>
+        </ol>
+    </nav>
 
-    <!-- The left box part / images -->
-    <div class="frv-box-2 frv-item-2">
-      <img src="./assets/images/welcome.png" alt="Me" class="welcome">
-      <img src="./assets/images/me.jpg" alt="Me" class="me">
-      <h1 class="h1-name">Feridun Emre Tuncer</h1>
+    <!-- The main "hero" image lets say-->
+    <div class="main-img">
+        <div class="main-img-text">
+            <h1>If the Earth were a single state, Istanbul would be its capital.</h1>
+            <p>- Napoleon Bonaparte</p>
+        </div>
     </div>
 
-    <!-- About me div section middle -->
-    <div class="frv-box frv-item-1">
-      <h1 class="h1-left">Who am I?</h1>
-      <p class="paragraph">
-        I'm Emre, 21 years old. I am a second year Web and Mobile
-        Computing student. I've been programming few mods for Minecraft
-        and also programmed few games in Java (2D). If you would like to see my projects
-        feel free to check out my <a href="https://github.com/Feroov" style="text-decoration: none; color: blue;">GitHub</a>
-        <br>
-        <br>
-        This site is currently temporary and will be changed in the near
-        future! Thank you for stopping by and I wish you have a great
-        rest of your day/evening! 
-      </p>
-    </div>
-  </div>
+    <h1 class="h1-home">Welcome to the city of two continents!</h1>
 
+    <!-- Container for the Home page -->
+    <div class="frv-container-home">
+
+        <!-- About istanbul -->
+        <div class="frv-box-home-1 frv-item-home-1">
+
+            <p class="paragraph">
+                Istanbul, located in the Marmara Region of Turkey is the largest city in all of 81 provinces of Turkey.
+                Istanbul is a crucial city in regards of economic, historical and socio-cultural aspects. It is ranked
+                as the 34th in the world in terms of economy.
+                It is also ranked the 1st in Europe and 6th in the world by population. The population of Istanbul is
+                15.8 million as of 2022. Istanbul was also known as Constantinople from the Byzantine times.
+            </p>
+        </div>
+
+        <!-- Bogaz picture -->
+        <div class="frv-box-home-2 frv-item-home-2">
+            <img class="bogaz" src="./assets/images/home/bogaz.jpg" alt="">
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <!-- Container for the Home page -->
+    <div class="frv-container-home">
+
+        <!-- About kiz kulesi -->
+        <div class="frv-box-home-1 frv-item-home-1">
+            <h1 class="h1-kizkulesi">
+                Kız Kulesi
+            </h1>
+            <p class="paragraph">
+                There is a legend about the Kız Kulesi that has a similar ending story of Cleopatra with the snake
+                story. The legend says once a king heard that his daughter would be bit and killed by a snake when she
+                hit 18 years old, because of this the king decided
+                to build a tower in the middle of the sea. According to historians Kız Kulesi was built in 410 B.C. Fun
+                fact Kız Kulesi literally means Girl Tower in Turkish.
+            </p>
+        </div>
+
+        <!-- Bogaz picture -->
+        <div class="frv-box-home-3 frv-item-home-3">
+            <img class="kizkulesi" style="box-shadow: 2px 2px 30px black;" src="./assets/images/home/kizkulesi.jpg"
+                alt="">
+        </div>
+
+    </div>
+
+    <!-- The main "hero" image lets say-->
+    <div class="main-img" style="background-image: url('./assets/images/home/sultanahmet.jpg'); margin-top: 5em;">
+
+    </div>
+
+    <h1 class="h1-home" style="margin-top: 1.5em;">Some interesting facts about Istanbul</h1>
+
+
+    <div class="frv-container-home">
+        <!-- Facts about Istanbul -->
+        <div class="frv-box-home-4 frv-item-home-4">
+
+            <p class="paragraph">
+                <b style="margin-right: 10px;">1.) </b> As we already know Istanbul is the only city in the world
+                situated between two continents (Europe and Asia).
+                <br>
+                <br>
+                <b style="margin-right: 10px;">2.)</b>Although it might seem Istanbul would be the capital city of
+                Turkey, it is actually not instead it is Ankara.
+                <br>
+                <br>
+                <b style="margin-right: 10px;">3.)</b> It was the Europe's Cultural Capital City in 2010 but
+                surprisingly never hosted the Olympics.
+                <br>
+                <br>
+                <b style="margin-right: 10px;">4.)</b> Istanbul is also home to the world's third-oldest subway, it was
+                built in 1875.
+                <br>
+                <br>
+                <b style="margin-right: 10px;">5.)</b> Istanbul has a food and water dispenser for stray cat and dogs,
+                the machines dispenses if a water bottle is recycled.
+                <br>
+                <br>
+                <b style="margin-right: 10px;">6.)</b> The oldest and largest bazaar "The Grand Bazaar" built in 1456 is
+                a sight one must experience.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="frv-container-home">
+        <!-- Bogaz picture -->
+        <div class="frv-box-home-3 frv-item-home-3">
+            <img class="bazaar" style="box-shadow: 2px 2px 30px black;" src="./assets/images/home/bazaar.jpg" alt="">
+        </div>
+
+        <!-- Bogaz picture -->
+        <div class="frv-box-home-3 frv-item-home-3">
+            <img class="tramvay" style="box-shadow: 2px 2px 30px black;" src="./assets/images/home/tramvay.jpg" alt="">
+        </div>
+    </div>
+
+
+    <button id="btnScrollUp">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- Linking the javascript -->
+    <script type="text/javascript" src="./assets/js/frvscript.js"></script>
 </body>
 
 </html>

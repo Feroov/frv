@@ -1,0 +1,101 @@
+/*
+    This CSS file is related to the navigation bar
+*/
+
+
+a, span { font-family: Tahoma, sans-serif; }
+/* Navigation Container*/
+.nav-container
+{
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  background: #1a1c1f;
+  z-index: 1;
+  transition: 0.5s;
+  transform: translateX(-250px);
+}
+
+/* Header inside of the nav */
+.nav-container .nav-head
+{
+  color: #5ff0bf;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  background: linear-gradient(30deg, #008674, #0c3117);
+}
+
+/**** Ordered list and everything
+ related to text etc ****/
+ol
+{
+  width: 100%;
+}
+
+ol li
+{
+  display: block;
+  width: 100%;
+
+}
+
+ol li a
+{
+  color: #5ff0bf;
+  padding: 15px 10px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  letter-spacing: 1px;
+  position: relative;
+  transition: 0.3s;
+  overflow: hidden;
+  margin-right: 40px;
+}
+
+ol li:hover a
+{
+  background-color: #030303;
+  color: #00ff80;
+  letter-spacing: 3px;
+}
+/************************************************/
+
+/* Hiding the input/checkbox */
+input
+{
+  -webkit-appearance: none;
+  visibility: hidden;
+  display: none;
+}
+
+/* Navigation toggle button */
+span
+{
+  position: absolute;
+  right: -40px;
+  top: 50px;
+  font-size: 25px;
+  border-radius: 4px;
+  color: #fff;
+  padding: 3px 8px;
+  cursor: pointer;
+  background-color: #000;
+
+}
+
+/* Navigation toggle */
+#nav-box:checked ~ .nav-container
+{
+  transform: translateX(0);
+}
+
+#nav-box:checked ~ .nav-container #openMenu
+{
+  display: none;
+}
+/*************************/
