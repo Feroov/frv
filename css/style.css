@@ -803,7 +803,7 @@ footer .credits a {
 }
 
 
-@media (min-width: 377px) {
+@media (min-width: 576px) {
 
 
   .about-mf .about-img img {
@@ -815,7 +815,10 @@ footer .credits a {
     margin-left: 0px;
   }
   
-  
+  .about-mf .about-img img {
+    margin-left: 1px;
+    width: 240px;
+  }
 }
 
 @media (min-width: 767px) {
@@ -833,6 +836,7 @@ footer .credits a {
     margin-left: 16rem;
     margin-right: 16rem;
   }
+  
 }
 
 @media (min-width: 768px) {
@@ -881,6 +885,10 @@ footer .credits a {
   .box-comments .list-comments .comment-author {
     font-size: 1.5rem;
   }
+  .about-mf .about-img img {
+    margin-left: 1px;
+    width: 240px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -891,6 +899,10 @@ footer .credits a {
     margin-top: 4rem;
     margin-right: 16rem;
     margin-left: 16rem;
+  }
+  .about-mf .about-img img {
+    margin-left: 1px;
+    width: 240px;
   }
 }
 
@@ -903,11 +915,20 @@ footer .credits a {
     margin-right: 16rem;
     margin-left: 16rem;
   }
+  .about-mf .about-img img {
+    margin-left: 1px;
+    width: 240px;
+  }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .bg-image {
     background-attachment: scroll;
+  }
+
+  .about-mf .about-img img {
+    margin-left: 1px;
+    width: 240px;
   }
 
 }
