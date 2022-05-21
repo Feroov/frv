@@ -803,6 +803,24 @@ footer .credits a {
 }
 
 
+@media (min-width: 376px) {
+
+
+  .about-mf .about-img img {
+    margin-left: 6em;
+    width: 240px;
+  }
+
+  .about-mf .about-img {
+    margin-left: 0px;
+  }
+  
+  .about-mf .about-img img {
+    margin-left: 5.7em;
+    width: 240px;
+  }
+}
+
 @media (min-width: 576px) {
 
 
@@ -816,8 +834,8 @@ footer .credits a {
   }
   
   .about-mf .about-img img {
-    margin-left: 1px;
-    width: 240px;
+    margin-left: 1.7em;
+    width: 200px;
   }
 }
 
