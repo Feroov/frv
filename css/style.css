@@ -337,7 +337,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #ccff00;
+  background: #f6ff00;
   color: rgb(0, 0, 0);
   width: 44px;
   height: 44px;
@@ -708,7 +708,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #ccff00;
+  background-color: #f6ff00;
 }
 
 /*======================================
@@ -803,10 +803,18 @@ footer .credits a {
 }
 
 
-@media (min-width: 577px) {
-  .counter-box {
-    margin-bottom: 1.8rem;
+@media (min-width: 377px) {
+
+
+  .about-mf .about-img img {
+    margin-left: 6em;
+    width: 240px;
   }
+
+  .about-mf .about-img {
+    margin-left: 0px;
+  }
+  
   
 }
 
